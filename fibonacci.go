@@ -13,7 +13,7 @@ func fibonacci() func() int {
 
 func main() {
 	f := fibonacci()
-	for i := 0; i < 20; i++ {
+	for i := 0; i < 15; i++ {
 		fmt.Println(f())
 	}
 }
